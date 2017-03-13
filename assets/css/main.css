@@ -2438,7 +2438,7 @@
 			}
 
 			.features article .blur {
-				-webkit-filter: blur(3px);
+				-webkit-filter: blur(1px);
 			}
 
 			.features article .blur:hover {
@@ -2454,6 +2454,10 @@
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+
+		.features a h4:hover {
+			text-decoration: underline;
+		}
 
 /* Header */
 
@@ -2609,7 +2613,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/space-bg-2.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
